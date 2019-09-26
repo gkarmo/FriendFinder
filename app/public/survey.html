@@ -1,258 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Survey</title>
+    <!-- Latest compiled and minified CSS -->
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Glyphicons -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
+    <div class="container">
+      <h2>Survey Questions</h2>
+      <hr />
 
-  <div class="container">
+      <h3><strong>About You</strong></h3>
+      <h4>Name (Required)</h4>
+      <input type="text" id="name" class="form-control" required />
 
-    <h2>Survey Questions</h2>
-    <hr>
+      <h4>Link to Photo Image (Required)</h4>
+      <input type="text" id="photo" class="form-control" required="" />
 
-    <h3><strong>About You</strong></h3>
-    <h4>Name (Required)</h4>
-    <input type="text" id="name" class="form-control" required>
+      <hr />
 
-    <h4>Link to Photo Image (Required)</h4>
-    <input type="text" id="photo" class="form-control" required="">
+      <h3><strong>Question 1</strong></h3>
+      <h4>You exercise everyday.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q1">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 1</strong></h3>
-    <h4>You exercise everyday.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q1">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 2</strong></h3>
+      <h4>You watch what you eat daily or at least try to.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q2">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 2</strong></h3>
-    <h4>You watch what you eat daily or at least try to.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q2">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 3</strong></h3>
+      <h4>
+        Your idle Friday night is staying in cuddled up with a good movie.
+      </h4>
+      <select class="form-control-sm" style="width: 157px;" id="q3">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 3</strong></h3>
-    <h4>Your idle Friday night is staying in cuddled up with a good movie.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q3">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 4</strong></h3>
+      <h4>You enjoy keeping up to date with recent sports news.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q4">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 4</strong></h3>
-    <h4>You enjoy keeping up to date with recent sports news.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q4">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 5</strong></h3>
+      <h4>You believe if you train hard you win easy.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q5">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 5</strong></h3>
-    <h4>You believe if you train hard you win easy.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q5">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 6</strong></h3>
+      <h4>It is easy for someone to ruin your entire day.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q6">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 6</strong></h3>
-    <h4>It is easy for someone to ruin your entire day.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q6">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 7</strong></h3>
+      <h4>
+        You tend to tell people what they want to hear even if it is true or
+        not.
+      </h4>
+      <select class="form-control-sm" style="width: 157px;" id="q7">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 7</strong></h3>
-    <h4>You tend to tell people what they want to hear even if it is true or not.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q7">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 8</strong></h3>
+      <h4>You spend most of your day staring at your phone.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q8">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 8</strong></h3>
-    <h4>You spend most of your day staring at your phone.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q8">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 9</strong></h3>
+      <h4>
+        You consider yourself one of the types that enjoy long walks on the
+        beach.
+      </h4>
+      <select class="form-control-sm" style="width: 157px;" id="q9">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <hr />
 
-    <h3><strong>Question 9</strong></h3>
-    <h4>You consider yourself one of the types that enjoy long walks on the beach.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q9">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <h3><strong>Question 10</strong></h3>
+      <h4>Family is extremely important to you.</h4>
+      <select class="form-control-sm" style="width: 157px;" id="q10">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
 
-    <hr>
+      <br />
+      <br />
 
-    <h3><strong>Question 10</strong></h3>
-    <h4>Family is extremely important to you.</h4>
-    <select class="form-control-sm" style="width: 157px;" id="q10">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+      <!-- Submit Button -->
+      <button
+        type="submit"
+        class="btn btn-primary btn-lg btn-block"
+        id="submit"
+      >
+        <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+      </button>
 
-    <br>
-    <br>
-
-    <!-- Submit Button -->
-    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
-        aria-hidden="true"></i>
-      Submit</button>
-
-    <hr>
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/gkarmo/FriendFinder">GitHub
-            Repo</a></p>
-      </div>
-    </footer>
-
-  </div>
-
-  <!-- Modal -->
-  <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Your Match</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <hr />
+      <footer class="footer">
+        <div class="container">
+          <p>
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/gkarmo/FriendFinder">GitHub Repo</a>
+          </p>
         </div>
-        <div class="modal-body">
-          <h2 id="yourMatch"></h2>
-          <img id="matchPic" src="#">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-
+      </footer>
     </div>
-  </div>
 
-  <script type="text/javascript">
+    <!-- Modal -->
+    <div id="theModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Your Match</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <h2 id="yourMatch"></h2>
+            <img id="matchPic" src="#" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    $("#submit").on("click", function (event) {
-      console.log("click");
+    <script type="text/javascript">
+      $("#submit").on("click", function(event) {
+        console.log("click");
 
-      event.preventDefault();
+        event.preventDefault();
 
-      function validateForm() {
+        function validateForm() {
+          var isValid = true;
+          $(".form-control").each(function() {
+            if ($(this).val() === "") {
+              isValid = false;
+            }
+          });
 
-        var isValid = true;
-        $(".form-control").each(function () {
-          if ($(this).val() === "") {
-            isValid = false;
-          }
-        });
+          $(".form-control-sm").each(function() {
+            if ($(this).val() === "") {
+              isValid = false;
+            }
+          });
 
-        $(".form-control-sm").each(function () {
-          if ($(this).val() === "") {
-            isValid = false;
-          }
-        });
+          return isValid;
+        }
 
-        return isValid;
-      }
+        if (validateForm() === true) {
+          var newFriend = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [
+              $("#q1").val(),
+              $("#q2").val(),
+              $("#q3").val(),
+              $("#q4").val(),
+              $("#q5").val(),
+              $("#q6").val(),
+              $("#q7").val(),
+              $("#q8").val(),
+              $("#q9").val(),
+              $("#q10").val()
+            ]
+          };
+          var url = window.location.origin;
 
-      if (validateForm() === true) {
-
-        var newFriend = {
-          name: $("#name").val(),
-          photo: $("#photo").val(),
-          scores: [
-            $("#q1").val(),
-            $("#q2").val(),
-            $("#q3").val(),
-            $("#q4").val(),
-            $("#q5").val(),
-            $("#q6").val(),
-            $("#q7").val(),
-            $("#q8").val(),
-            $("#q9").val(),
-            $("#q10").val()
-          ]
-        };
-        var url = window.location.origin;
-
-        $.post(url + "/api/friends", newFriend, function (data) {
-
-          $("#yourMatch").text(data.name);
-          console.log(data.name);
-          $("#matchPic").attr("src", data.photo);
-          $("#myModal").modal("toggle");
-        });
-      } else {
-        alert("Please complete the survey.");
-      }
-    });
-  </script>
-
-</body>
-
+          $.post(url + "/api/friends", newFriend, function(data) {
+            $("#yourMatch").text(data.name);
+            console.log(data.name);
+            $("#matchPic").attr("src", data.photo);
+            $("#theModal").modal("toggle");
+          });
+        } else {
+          alert("Please complete the survey.");
+        }
+      });
+    </script>
+  </body>
 </html>

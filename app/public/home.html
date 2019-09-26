@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Tables Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tables Page</title>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Glyphicons -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-left">
+          <span class="fa fa-fire"></span> Friend Finder
+        </h1>
+        <hr />
+        <h2 class="text-left">
+          Answer a few questions to find who you are most compatable with
+        </h2>
+        <br />
 
-</head>
-<body>
-
-  <div class="container">
-
-    <div class="jumbotron">
-      <h1 class="text-left"><span class="fa fa-fire"></span> Friend Finder</h1>
-      <hr>
-      <h2 class="text-left">Answer a few questions to find who you are most compatable with</h2>
-      <br>
-
-      <div class="text-left">
-        <a href="/survey"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> Friends List</button></a>
+        <div class="text-left">
+          <a href="/survey"
+            ><button class="btn btn-lg btn-primary">
+              <span class="fa fa-list-alt"></span> Friends List
+            </button></a
+          >
+        </div>
       </div>
 
+      <footer class="footer">
+        <div class="container">
+          <p>
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/gkarmo/FriendFinder">GitHub Repo</a>
+          </p>
+        </div>
+      </footer>
     </div>
-
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/gkarmo/FriendFinder">GitHub Repo</a>
-      </div>
-    </footer>
-
-  </div>
-
-
-</body>
+  </body>
 </html>
